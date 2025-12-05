@@ -12,16 +12,16 @@ echo -e " \e[91m                                                   ____      ___
 echo -e " \e[91m                                                  / __ \    / ____\ " 
 echo -e " \e[96m                                                 / /  \ \  ( (___   " 
 echo -e " \e[96m                                                ( ()  () )  \___ \  " 
-echo -e " \e[1;91m Youtube\e[96m / \e[100;97myoutube.com/h4ck3r0\e[0;31m                  ( ()  () )      ) )" 
-echo -e " \e[1;91m Github\e[96m /\e[1;93m H4Ck3R0                                \ \__/ /   ___/ /"  
-echo -e " \e[1;91m Telegram\e[1;96m /\e[1;92m H4Ck3R_0                              \____/   /____/"    
+echo -e " \e[1;91m Youtube\e[96m / \e[100;97mFacebook - SAHIN SHEKH (Anime Lover)\e[0;31m                  ( ()  () )      ) )" 
+echo -e " \e[1;91m Github\e[96m /\e[1;93m SAHINSHEKH101                                \ \__/ /   ___/ /"  
+echo -e " \e[1;91m Telegram\e[1;96m /\e[1;9 SAHINSHEKH101                              \____/   /____/"    
 echo ""
 
 banner ( ) {
                   
                   
                   printf ""
-                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92myoutube.com/h4ck3r0\e[0m"
+                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92mFacebook - SAHIN SHEKH (Anime Lover)\e[0m"
                   }
 
                   wr  ( )  {
@@ -32,22 +32,27 @@ banner ( ) {
                                                          apt update && apt upgrade
                                                          pkg install zsh -y
                                                          pkg install git -y
+                                                         pkg install figlet toilet -y
                                                          pkg install ruby  -y
                                                          pkg install wget  -y
+                                                       
                                                          gem install lolcat 
                                                          pkg install curl -y
                                                          pkg install zsh -y
-                                                         dpkg --configure -a
+                                                         
                                                          clear
-                                                         wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+                                                         cd ~/Termux-os/.object/ && cp -r 'ANSI Shadow.flf'  $PREFIX/share/figlet/ASCII-Shadow.flf 
                                                          git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
-                                                         apt install toilet figlet exa wget ruby 
+                                                       
+                                                         pkg install toilet figlet exa -y
+                                                         cd ~/Termux-os/.object
                                                          rm -rf ~/.termux/colors.properties
                                                          rm -rf /data/data/com.termux/files/usr/etc/motd
-                                                         cd ~/Termux-os/.object ; cp -r .colors.properties ~/.termux/colors.properties
-                                                         cd ~/Termux-os/.object ; cp -r .termux.properties ~/.termux/termux.properties
+                                                         cp -r .colors.properties ~/.termux/colors.properties
+                                                         cp -r .termux.properties ~/.termux/termux.properties
                                                          clear
                                                          cd ~/Termux-os ; bash os.sh
+                                                         termux-open-url h4ck3r.me
                                                          
                                                          }
                                                          2line() {
@@ -80,13 +85,14 @@ banner ( ) {
                                                                                                                                                                        7line() {
                                                                                                                                                                                                                     cd ~/Termux-os/.object
                                                                                                                                                                                                                     rm -rf ~/.zshrc
+                                                                                                                                                                                                                    chsh -s zsh
                                                                                                                                                                                                                     bash .3.sh
                                                                                                                                                                                                                     clear ; cd ~/Termux-os ; bash os.sh
                                                                                                                                                                                                                      }
                                                                                                                                                                                                                      8line() {
                                                                                                                                                                                                                                   rm -rf ~/Termux-os
                                                                                                                                                                                                                                   cd
-                                                                                                                                                                                                                                  git clone https://github.com/h4ck3r0/Termux-os
+                                                                                                                                                                                                                                  git clone https://github.com/sahinshekh101/Termux-os
                                                                                                                                                                                                                                   cd ~/Termux-os ; bash os.sh
                                                                                                                                                                                                                                   }
     
