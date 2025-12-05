@@ -21,7 +21,7 @@ banner ( ) {
                   
                   
                   printf ""
-                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92mFacebook - SAHIN SHEKH (Anime Lover)\e[0m"
+                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mSAHIN SHEKH\e[93m/ \e[100;92mFacebook - SAHIN SHEKH (Anime Lover)\e[0m"
                   }
 
                   wr  ( )  {
